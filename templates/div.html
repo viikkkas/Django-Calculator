@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="caldiv">
+<div class="col-md-6 mb-3">
+  <label for="num1">First Number</label>
+  <input type="text" class="form-control" id="num1" name="num1" required>
+</div>
+<div class="col-md-6 mb-3">
+  <label for="num2">Second Number</label>
+  <input type="text" class="form-control" id="num2" name="num2" required>
+</div>
+<br>
+<div class="btn-group" role="group" aria-label="Third group">
+  <button type="submit" class="btn btn-secondary">Divide</button>
+</div>
+</form>
+
+{% endblock %}

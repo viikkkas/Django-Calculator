@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <a href = "{% url 'add' %}"> <button type="button" class="btn btn-outline-primary">Addition</button> </a> 
+    <a href = "{% url 'sub' %}"><button type="button" class="btn btn-outline-secondary">Subtraction</button></a>
+    <a href = "{% url 'mul' %}"><button type="button" class="btn btn-outline-success">Multiplication</button></a> 
+    <a href = "{% url 'div' %}"><button type="button" class="btn btn-outline-danger">Division</button></a> 
+    <br><br><br><br><br>
+    <div class="p-3 mb-2 bg-secondary text-white">OR</div><br>
+    <a href = "{% url 'nuts' %}"><button type="button" class="btn btn-success">GO NUTS</button></a>
+
+
+{% endblock %}

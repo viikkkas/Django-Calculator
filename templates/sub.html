@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form action="calsub">
+    <div class="col-md-6 mb-3">
+        <label for="num1">First Number</label>
+        <input type="text" class="form-control" id="num1" name="one" required>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="num2">Second Number</label>
+        <input type="text" class="form-control" id="num2" name="two" required>
+      </div>
+      <br>
+      <div class="btn-group" role="group" aria-label="Third group">
+        <button type="submit" class="btn btn-secondary">Find the difference</button>
+      </div>
+</form>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<form action="calnuts">
+    <div class="col-md-6 mb-3">
+      <label for="num1">Enter expression</label>
+      <input type="text" class="form-control" id="exp" name="exp" required>
+    </div>
+    <div class="btn-group" role="group" aria-label="Third group">
+        <button type="submit" class="btn btn-secondary">Compute</button>
+      </div>
+</form>
+    
+
+{% endblock %}
