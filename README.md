@@ -1,3 +1,8 @@
+# Live version
+
+https://viikkkas-calculator.herokuapp.com/
+
+
 # Simple calculator website
 
 Uses django as web framework, bootstrap as css framework 
@@ -9,7 +14,3 @@ All the four operations are implemented and shows result on a new page
 There is another option on the main page which allows user to enter an expression to be evaluated
 
 This part is yet to be implemented.
-
-# Live version
-
-https://viikkkas-calculator.herokuapp.com/
